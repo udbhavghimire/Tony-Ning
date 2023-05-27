@@ -19,7 +19,7 @@
  }
  
  .brand-color {
-     color: #719D9A;
+     color: #121275 !important;
  }
  
  .main-titlee {
@@ -36,7 +36,7 @@
  }
  
  .call-btn {
-     background: #719D9A;
+     background: #121275;
      border-radius: 5px;
      color: white;
      /* border: 2px solid #ffffff; */
@@ -57,14 +57,12 @@
  
  .navbar {
      background: #000;
-     padding-top: 1rem;
-     padding-bottom: 1rem;
  }
  
  .navbar-brand {
      color: black !important;
      font-weight: 800;
-     height: 90px;
+     height: 70px;
      margin-right: 0rem !important;
  }
  
@@ -83,7 +81,7 @@
  }
  
  .hero-text {
-     height: 60vh;
+     height: 65vh;
      /* Set the height of the container to full viewport height */
      display: flex;
      flex-direction: column;
@@ -100,4 +98,133 @@
      color: #ffffff;
      letter-spacing: 2px;
      font-family: "sanchez";
+ }
+ 
+ .heading {
+     font-size: 3rem;
+     font-weight: 800;
+     color: #000000;
+     line-height: 1.3;
+     letter-spacing: -50;
+ }
+ 
+ .text-mine {
+     color: #000000 !important;
+ }
+ 
+ .fw-mine2 {
+     font-weight: bold;
+     letter-spacing: 0.4px;
+     font-size: 1rem;
+ }
+ 
+ .tony-award {
+     border-top-right-radius: 7em;
+ }
+ 
+ .award-card {
+     transition: all 0.3s ease-in-out;
+ }
+ 
+ .award-card:hover {
+     filter: none;
+     transform: scale(1.05);
+ }
+ 
+ .bg-lightt {
+     background-image: linear-gradient(180deg, #e1e1e8, #ffffff) !important;
+ }
+ 
+ .book {
+     margin-left: 6rem;
+     margin-right: 6rem;
+ }
+ 
+ .rounded-mine {
+     border-radius: 20px;
+ }
+ 
+ .book-animation {
+     transition: all 0.3s ease-out;
+ }
+ 
+ .book-animation :hover {
+     transform: translate(0, -15px);
+ }
+ 
+ .drop-shadow {
+     filter: drop-shadow(20px 10px 4px #d4d4dd);
+ }
+ 
+ .fields {
+     width: 100%;
+     padding: 1.5rem 1.5rem;
+     border: none;
+     border-radius: 8px;
+     background-color: #f1f3fa;
+ }
+ 
+ .img-hei {
+     height: 320px;
+     object-fit: cover;
+     width: 100%;
+ }
+ 
+ .cnt-img {
+     height: 320px;
+     object-fit: contain;
+     width: 100%;
+ }
+ 
+ .sixdesign {
+     max-height: 90px;
+     width: auto;
+ }
+ 
+ .signature {
+     width: 80px;
+ }
+ 
+ @media (max-width: 768px) {
+     .main-titlee {
+         font-size: 3.3rem !important;
+         font-weight: 700;
+         color: #ffffff;
+         line-height: 0.95;
+         letter-spacing: -50;
+     }
+     .navbar-brand {
+         height: 70px;
+     }
+     .hero-text {
+         height: 50vh;
+         /* Set the height of the container to full viewport height */
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+     .hero-img {
+         position: relative;
+         bottom: 0;
+     }
+     .sm-title {
+         color: #ffffff;
+         letter-spacing: 2px;
+         font-family: "sanchez";
+         font-size: 1rem;
+     }
+     .heading {
+         font-size: 1.5rem;
+         font-weight: 800;
+         color: #000000;
+         line-height: 1.3;
+         letter-spacing: -50;
+     }
+     .justifyyy {
+         text-align: justify;
+     }
+     .ratio {
+         aspect-ratio: 1 / 1;
+     }
  }
